@@ -2,9 +2,12 @@ fetch('commits.json')
   .then(res => res.json())
   .then(data => {
     const container = document.getElementById('changelog');
+
+    // Ordenamos del más reciente al más antiguo
     data.reverse().forEach(commit => {
       const li = document.createElement('li');
 
+      // Cabecera del commit
       const header = document.createElement('div');
       header.className = 'commit-header';
 
@@ -17,6 +20,7 @@ fetch('commits.json')
       header.appendChild(icon);
       header.appendChild(msg);
 
+      // Toggle para mostrar archivos
       const toggle = document.createElement('span');
       toggle.className = 'toggle';
       toggle.textContent = 'Mostrar archivos';
@@ -24,8 +28,13 @@ fetch('commits.json')
       const filesDiv = document.createElement('div');
       filesDiv.className = 'files';
       filesDiv.style.display = 'none';
-      if(commit.files){
-        filesDiv.innerHTML = commit.files.map(f => `<div>${f}</div>`).join('');
+
+      // Asegurarse que files sea un array
+      const files = Array.isArray(commit.files) ? commit.files : [];
+      if(files.length > 0){
+        filesDiv.innerHTML = files.map(f => `<div>${f}</div>`).join('');
+      } else {
+        filesDiv.innerHTML = '<div><em>No hay archivos modificados</em></div>';
       }
 
       toggle.onclick = () => {
