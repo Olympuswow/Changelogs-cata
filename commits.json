@@ -374,7 +374,7 @@
   "commit": "825ee8151897d490d563af19577e1e41eb3df046",
   "author": "RëXol",
   "date": "Thu Jun 26 11:53:06 2025 -0400",
-  "message": "Revert "Suprimir OnLogin Announce Inecesario"",
+  "message": "Revert \"Suprimir OnLogin Announce Inecesario\"",
   "files": ["src/server/scripts/Custom/Mod_Cfpve.cpp","src/server/scripts/Custom/Mod_Level_Booster.cpp","src/server/scripts/Custom/Mod_Teleport.cpp"]
 },
 {
@@ -1011,7 +1011,7 @@
   "commit": "b7d9ff152d7885c4e5b7beec094dd24938a15a68",
   "author": "RëXol",
   "date": "Wed Jul 16 09:57:42 2025 -0400",
-  "message": "Revert "Posible crash fix vehiculos"",
+  "message": "Revert \"Posible crash fix vehiculos\"",
   "files": ["src/server/game/Entities/Vehicle/Vehicle.cpp","src/server/shared/Utilities/EventProcessor.cpp","src/server/shared/Utilities/EventProcessor.h"]
 },
 {
@@ -1039,7 +1039,7 @@
   "commit": "d5feedb5fde491b75865da6e3a86d02112fbf2e2",
   "author": "RëXol",
   "date": "Wed Jul 16 21:42:47 2025 -0400",
-  "message": "Revert "posible fix for bytebuffer"",
+  "message": "Revert \"posible fix for bytebuffer\"",
   "files": ["src/server/shared/Packets/ByteBuffer.h"]
 },
 {
@@ -1466,7 +1466,7 @@
   "commit": "1e6966ddc9476df7230379efaddab3dd1b49fec8",
   "author": "RëXol",
   "date": "Fri Jul 25 09:35:07 2025 -0400",
-  "message": "Revert  no necesario"log .dmp  para analizar mas concretamente el error de crash"",
+  "message": "Revert  no necesario\"log .dmp  para analizar mas concretamente el error de crash\"",
   "files": ["src/server/worldserver/Main.cpp"]
 },
 {
@@ -1655,7 +1655,7 @@
   "commit": "88f4ffd12f1e7a7d172b64962e31f475b1a9dab5",
   "author": "RëXol",
   "date": "Sat Aug 2 11:27:08 2025 -0400",
-  "message": "Revert "Posibles crash fix"",
+  "message": "Revert \"Posibles crash fix\"",
   "files": ["src/server/game/Entities/Object/Object.cpp","src/server/game/Spells/Auras/SpellAuras.cpp","src/server/game/Spells/Spell.cpp"]
 },
 {
@@ -1718,7 +1718,7 @@
   "commit": "4428c42079cd93e86a0cd29161be7e5755db32d4",
   "author": "Lиoзbеl Ruззо",
   "date": "Mon Aug 4 12:15:24 2025 -0400",
-  "message": "Revert "Spell Logger"",
+  "message": "Revert \"Spell Logger\"",
   "files": ["src/server/game/Spells/Spell.cpp"]
 },
 {
@@ -1795,7 +1795,7 @@
   "commit": "6800584d9ec2824cf8f0e5601319420fb9e462ed",
   "author": "RëXol",
   "date": "Tue Aug 5 13:24:05 2025 -0500",
-  "message": "Revert "Update boss_sinestra.cpp"",
+  "message": "Revert \"Update boss_sinestra.cpp\"",
   "files": ["src/server/scripts/EasternKingdoms/BastionOfTwilight/boss_sinestra.cpp"]
 },
 {
@@ -1837,7 +1837,7 @@
   "commit": "4d623cfef7abb549f2e13ce6a4bd7855b5f69efa",
   "author": "RëXol",
   "date": "Tue Aug 5 15:50:00 2025 -0400",
-  "message": "Revert "Posible Fix Spell autocast"",
+  "message": "Revert \"Posible Fix Spell autocast\"",
   "files": ["src/server/game/Handlers/SpellHandler.cpp","src/server/game/Spells/Spell.cpp"]
 },
 {
@@ -2453,6 +2453,20 @@
   "commit": "39861123f8cf203ea78ad144a21308d898c95b88",
   "author": "github-actions[bot]",
   "date": "Sun Sep 21 14:34:41 2025 +0000",
+  "message": "Update full commits.json",
+  "files": ["commits.json"]
+},
+{
+  "commit": "b4e66e92dbbf2dc7ce5257c0d47e166567b03d41",
+  "author": "RëXol",
+  "date": "Sun Sep 21 10:43:25 2025 -0400",
+  "message": "Update main.yml",
+  "files": [".github/workflows/main.yml"]
+},
+{
+  "commit": "872634fe282552ad8701182f17ca89490183d99e",
+  "author": "github-actions[bot]",
+  "date": "Sun Sep 21 14:43:43 2025 +0000",
   "message": "Update full commits.json",
   "files": ["commits.json"]
 }
