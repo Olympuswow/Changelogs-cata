@@ -30,7 +30,7 @@ fetch('commits.json')
       filesDiv.style.display = 'none';
 
       // Asegurarse que files sea un array
-      const files = Array.isArray(commit.files) ? commit.files : [];
+      const files = Array.isArray(commit.files) commit.files : [];
       if(files.length > 0){
         filesDiv.innerHTML = files.map(f => `<div>${f}</div>`).join('');
       } else {
@@ -38,7 +38,7 @@ fetch('commits.json')
       }
 
       toggle.onclick = () => {
-        filesDiv.style.display = filesDiv.style.display === 'none' ? 'flex' : 'none';
+        filesDiv.style.display = filesDiv.style.display === 'none' 'flex' : 'none';
       };
 
       li.appendChild(header);
