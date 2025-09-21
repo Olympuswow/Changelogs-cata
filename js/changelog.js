@@ -15,7 +15,7 @@ fetch('commits.json')
       icon.className = 'commit-icon';
 
       const msg = document.createElement('span');
-      msg.innerHTML = `<strong>${commit.message}</strong><span class="azul">${commit.author}</span> (${commit.date})`;
+      msg.innerHTML = `<strong>${commit.message}</strong>✅<span class="azul">${commit.author}</span> (${commit.date})`;
 
       header.appendChild(icon);
       header.appendChild(msg);
