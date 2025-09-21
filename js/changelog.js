@@ -3,7 +3,7 @@ fetch('commits.json')
   .then(data => {
     const container = document.getElementById('changelog');
 
-    // Ordenamos del más reciente al más antiguo
+    // Ordenamos del mÃ¡s reciente al mÃ¡s antiguo
     data.reverse().forEach(commit => {
       const li = document.createElement('li');
 
@@ -15,7 +15,7 @@ fetch('commits.json')
       icon.className = 'commit-icon';
 
       const msg = document.createElement('span');
-      msg.innerHTML = `<strong>${commit.message}</strong> — <span class="azul">${commit.author}</span> (${commit.date})`;
+      msg.innerHTML = `<strong>${commit.message}</strong><span class="azul">${commit.author}</span> (${commit.date})`;
 
       header.appendChild(icon);
       header.appendChild(msg);
