@@ -2385,5 +2385,33 @@
   "date": "Sun Sep 21 08:50:18 2025 -0400",
   "message": "Create 2025_09_21 correcion_locale.sql",
   "files": ["data/update/world/2025_09_21 correcion_locale.sql"]
-}
+},
+  {
+    "commit": "39361f9b8c14ddd4f6882eb024c7ddd617938547",
+    "author": "RëXol",
+    "date": "Tue Sep 23 23:52:47 2025 -0400",
+    "message": "Fix copilar en Debian 10",
+    "files": ["README", "dep/boost/CMakeLists.txt", "dll.7zip", "doc/Copilar_Debian10.txt", "doc/Downloads.rar", "src/server/game/AI/ScriptedAI/ScriptedCreature.cpp", "src/server/game/Entities/Object/Object.cpp", "src/server/game/Entities/Object/Object.h", "src/server/game/Grids/Notifiers/GridNotifiers.h", "src/server/game/Handlers/PetHandler.cpp", "src/server/scripts/EasternKingdoms/zone_stormwind_city.cpp", "src/server/shared/CMakeLists.txt", "src/server/shared/Containers.h", "src/server/shared/Utilities/Util.cpp", "src/server/worldserver/CMakeLists.txt"]
+  },
+  {
+    "commit": "b039a3e9a8ab8798b2e7829e8b4a4914f88846c8",
+    "author": "RëXol",
+    "date": "Wed Sep 24 09:09:55 2025 -0400",
+    "message": "update guia de copilacion debian 10",
+    "files": ["README", "doc/Copilar_Debian10.txt"]
+  },
+  {
+    "commit": "5c566ff72d5fe26786e6dc4f4a187a197edef403",
+    "author": "RëXol",
+    "date": "Wed Sep 24 12:16:43 2025 -0400",
+    "message": "Fix coordenadas de busqueda del perescopio",
+    "files": ["data/update/world/2025_09_24 archaeology_sites datos corruptos.sql", "src/server/game/Skills/ArcheologyMgr.cpp", "src/server/game/Skills/ArcheologyMgr.h"]
+  },
+  {
+    "commit": "2ab97636b489d71880ed8ca3015416e4eb26a677",
+    "author": "RëXol",
+    "date": "Wed Sep 24 13:19:17 2025 -0400",
+    "message": "Fix error copilacion en windows",
+    "files": ["src/server/authserver/CMakeLists.txt", "src/server/shared/Utilities/Util.cpp"]
+  }
 ]
