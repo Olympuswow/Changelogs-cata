@@ -2413,5 +2413,47 @@
     "date": "Wed Sep 24 13:19:17 2025 -0400",
     "message": "Fix error copilacion en windows",
     "files": ["src/server/authserver/CMakeLists.txt", "src/server/shared/Utilities/Util.cpp"]
+  },
+  {
+    "commit": "230e6251f101563ac852c75757f6a570f9892936",
+    "author": "RëXol",
+    "date": "Tue Sep 30 14:12:44 2025 -0400",
+    "message": "Core/locales agregado textos de objetivos a locales_quest",
+    "files": ["data/update/world/2025_09_30 locales_quest.sql", "src/server/game/Globals/ObjectMgr.cpp"]
+  },
+  {
+    "commit": "9ce0b6176bb5f1a9b0caa4cdc6e6500b1ba1337e",
+    "author": "RëXol",
+    "date": "Wed Oct 1 07:28:11 2025 -0400",
+    "message": "archive sql 09-2025",
+    "files": ["data/update/world/09-2025/2025_09_05 intendente_pve_alliance.sql", "data/update/world/09-2025/2025_09_05 intendente_pve_horde.sql", "data/update/world/09-2025/2025_09_05 intendente_pvp_alliance.sql", "data/update/world/09-2025/2025_09_05 intendente_pvp_horde.sql", "data/update/world/09-2025/2025_09_13 archaeology_sites.sql", "data/update/world/09-2025/2025_09_16 olympus_string.sql", "data/update/world/09-2025/2025_09_21 correcion_locale.sql", "data/update/world/09-2025/2025_09_24 archaeology_sites datos corruptos.sql", "data/update/world/09-2025/2025_09_29_db_error.sql", "data/update/world/09-2025/2025_09_29_locales_npc_42940.sql", "data/update/world/09-2025/2025_09_30 locales_quest.sql", "data/update/world/09-2025/2025_09_30_fix_world.sql"]
+  },
+  {
+    "commit": "3ed432d0640e46f54972bf8595f70373df84bd03",
+    "author": "RëXol",
+    "date": "Wed Oct 1 07:28:59 2025 -0400",
+    "message": "Correccion  a problemas de maestria",
+    "files": ["data/update/world/2025_10_01 maestria.sql", "src/server/scripts/Spells/spell_generic.cpp"]
+  },
+  {
+    "commit": "00d720b8790126e56af41a1fe35ed13aa50985cb",
+    "author": "RëXol",
+    "date": "Thu Oct 2 16:19:29 2025 -0400",
+    "message": "Create 2025_10_02 traduccion_locales.7zip",
+    "files": ["data/update/world/2025_10_02 traduccion_locales.7zip"]
+  },
+  {
+    "commit": "23057c962931048dfebb065ce1dbcee89dabd46d",
+    "author": "Lиoзbеl Ruззо",
+    "date": "Thu Oct 2 16:02:51 2025 -0400",
+    "message": "Shadow Orbs (bad calc) Rep",
+    "files": ["src/server/scripts/Spells/spell_priest.cpp"]
+  },
+  {
+    "commit": "c38f7005754876a268f2e45efc20643463c497a5",
+    "author": "RëXol",
+    "date": "Fri Oct 3 10:21:08 2025 -0400",
+    "message": "Core/Unit Fix calculo erroneo del temple (resilience)",
+    "files": ["src/server/game/Entities/Unit/Unit.cpp"]
   }
 ]
