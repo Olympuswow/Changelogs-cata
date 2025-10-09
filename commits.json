@@ -2455,5 +2455,68 @@
     "date": "Fri Oct 3 10:21:08 2025 -0400",
     "message": "Core/Unit Fix calculo erroneo del temple (resilience)",
     "files": ["src/server/game/Entities/Unit/Unit.cpp"]
+  },
+  {
+    "commit": "34e7886a92fd0f3160f9636ced53c5bf340c3da1",
+    "author": "RëXol",
+    "date": "Sun Oct 5 08:18:43 2025 -0400",
+    "message": "Core/Script delete hand_creature_script",
+    "files": ["data/update/world/2025_10_05 delete_hand_creature_script.txt", "src/server/scripts/Kalimdor/CavernsOfTime/WellOfEternity/boss_queen_azshara.cpp"]
+  },
+  {
+    "commit": "acb5f5693731592dd650a1117386aa5470371591",
+    "author": "RëXol",
+    "date": "Sun Oct 5 08:24:10 2025 -0400",
+    "message": "Fix npc shadowbat",
+    "files": ["src/server/scripts/Kalimdor/CavernsOfTime/WellOfEternity/boss_mannoroth_and_varothen.cpp"]
+  },
+  {
+    "commit": "4954ae6cb98b973bac4bd379c97e1155d11ace17",
+    "author": "RëXol",
+    "date": "Sun Oct 5 09:13:28 2025 -0400",
+    "message": "Core/gameevent tiempo",
+    "files": ["src/server/game/Events/GameEventMgr.cpp", "src/server/game/Events/GameEventMgr.h"]
+  },
+  {
+    "commit": "2afb40936b95a703e87dee0bf2533ef036e0b932",
+    "author": "RëXol",
+    "date": "Sun Oct 5 10:06:51 2025 -0400",
+    "message": "Core/Pet correccion en pet",
+    "files": ["src/server/game/AI/CoreAI/PetAI.cpp", "src/server/game/Entities/Unit/Unit.cpp"]
+  },
+  {
+    "commit": "611c8ffc898afa61066433ad98fdbca484bf36de",
+    "author": "RëXol",
+    "date": "Sun Oct 5 11:03:30 2025 -0400",
+    "message": "update",
+    "files": ["data/update/world/2025_10_05 delete_hand_creature_script.sql"]
+  },
+  {
+    "commit": "f37b82b5cd0bed58f6dac5f34a07137d9fc2826a",
+    "author": "RëXol",
+    "date": "Sun Oct 5 21:49:26 2025 -0400",
+    "message": "Spell/Priest fix orbe de las sombras",
+    "files": ["data/update/world/2025_10_05 spell_priest_orbe_de_las_sombras.sql", "src/server/game/Entities/Unit/Unit.cpp", "src/server/game/Spells/SpellEffects.cpp", "src/server/scripts/Spells/spell_priest.cpp"]
+  },
+  {
+    "commit": "82163fe404ab52370e97c4172baae52dbe38be29",
+    "author": "RëXol",
+    "date": "Sun Oct 5 22:42:52 2025 -0400",
+    "message": "Spell/Priest fix eco de luz",
+    "files": ["data/update/world/2025_10_05 spell_priest_eco_de_luz.sql", "src/server/game/Entities/Unit/Unit.cpp", "src/server/scripts/Spells/spell_priest.cpp"]
+  },
+  {
+    "commit": "70c6a59903f74719880f469212750f8a6f289656",
+    "author": "RëXol",
+    "date": "Mon Oct 6 07:12:10 2025 -0400",
+    "message": "Spell/Priest reajustando calculo de maestria orbe de las sombras",
+    "files": ["src/server/game/Entities/Unit/Unit.cpp"]
+  },
+  {
+    "commit": "908e78b4429f0ec58b9096cb7398889ec55359dd",
+    "author": "RëXol",
+    "date": "Mon Oct 6 14:49:20 2025 -0400",
+    "message": "Create items_custom.sql",
+    "files": ["data/Custom/items_custom.sql"]
   }
 ]
