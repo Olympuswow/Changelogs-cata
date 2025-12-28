@@ -2954,5 +2954,257 @@
     "date": "Sat Dec 6 10:11:48 2025 -0500",
     "message": "update requisitos de copilacion debian 10/11/12",
     "files": [ "README" ]
+  },
+  {
+    "commit": "b9054e452aa097ea16e6b5b8c6d319cdf02d856c",
+    "author": "Uniko",
+    "date": "Sat Dec 6 16:11:17 2025 -0600",
+    "message": "Create 2025_12_06_Locales_esES_varios_2.SQL",
+    "files": ["data/update/world/2025_12_06_Locales_esES_varios_2.SQL"]
+  },
+  {
+    "commit": "9098d02a7e85848ea4a64fe2c922022a472dcf4c",
+    "author": "RëXol",
+    "date": "Sun Dec 7 15:32:11 2025 -0500",
+    "message": "Core/custom olympusCoins-dp reward",
+    "files": ["data/base/auth.sql", "data/update/auth/2025_12_07 wow_token.sql", "data/update/world/2025_12_07 olympus_coins.sql", "src/server/game/Entities/Player/Player.cpp", "src/server/game/Entities/Player/Player.h", "src/server/game/World/World.cpp", "src/server/game/World/World.h", "src/server/scripts/Custom/custom_script_loader.cpp", "src/server/scripts/Custom/olympus_coins.cpp", "src/server/scripts/Custom/pd_time_reward.cpp", "src/server/worldserver/worldserver.conf.dist"]
+  },
+  {
+    "commit": "3bfd167f5848cc7a56e89b2b36eb3999d2c42b34",
+    "author": "RëXol",
+    "date": "Sun Dec 7 15:33:34 2025 -0500",
+    "message": "Create 2025_12_07 db_errors.sql",
+    "files": ["data/update/world/2025_12_07 db_errors.sql"]
+  },
+  {
+    "commit": "b67696fdaf55a41d2c0e0995e5d6a4c61d1840ce",
+    "author": "RëXol",
+    "date": "Mon Dec 8 17:21:53 2025 -0500",
+    "message": "Create 2025_12_08 update_token_de_profesion.sql",
+    "files": ["data/update/world/2025_12_08 update_token_de_profesion.sql"]
+  },
+  {
+    "commit": "8587ee0a4df781e042a470d1cd67c1a5926eb9c7",
+    "author": "RëXol",
+    "date": "Tue Dec 9 08:36:47 2025 -0500",
+    "message": "Create 2025_12_09 delete_item_custom.sql",
+    "files": ["data/update/world/2025_12_09 delete_item_custom.sql"]
+  },
+  {
+    "commit": "e02fa6334d1e54984ad6953351e6db977a2383ef",
+    "author": "RëXol",
+    "date": "Tue Dec 9 17:28:27 2025 -0500",
+    "message": "fix pd reward",
+    "files": ["src/server/game/Entities/Player/Player.cpp", "src/server/game/Entities/Player/Player.h", "src/server/game/World/World.cpp", "src/server/game/World/World.h", "src/server/scripts/Custom/pd_time_reward.cpp", "src/server/worldserver/worldserver.conf.dist"]
+  },
+  {
+    "commit": "77a2df012b0a60ff933741c0e7ab756d52b0f2e0",
+    "author": "RëXol",
+    "date": "Wed Dec 10 14:18:07 2025 -0500",
+    "message": "Sytem/Vip update",
+    "files": ["data/base/auth.sql", "data/update/auth/2025_12_10 update_vip.sql", "data/update/world/2025_12_10 update_vip.sql", "src/server/scripts/Custom/Vip/SystemVip.cpp", "src/server/scripts/Custom/Vip/SystemVip.h"]
+  },
+  {
+    "commit": "02ab149f3d530a7ea2bb76d77b4a9124fc3a8366",
+    "author": "RëXol",
+    "date": "Thu Dec 11 07:25:08 2025 -0500",
+    "message": ".",
+    "files": ["dep/PackageList.txt", "doc/Copilar_Debian.txt"]
+  },
+  {
+    "commit": "e560f516c6aeb9ac31c564231a9f41eb6185ec28",
+    "author": "RëXol",
+    "date": "Thu Dec 11 14:08:38 2025 -0500",
+    "message": "add olympus service",
+    "files": ["data/update/world/2025_12_11 olympus_service.sql", "src/server/scripts/Custom/Vip/SystemVip.cpp", "src/server/scripts/Custom/custom_script_loader.cpp", "src/server/scripts/Custom/olympus_service.cpp", "src/server/scripts/Custom/pd_time_reward.cpp", "src/server/scripts/World/item_scripts.cpp"]
+  },
+  {
+    "commit": "4073625e9dfe6a8f2c4103e30d89cfbf6b33c290",
+    "author": "RëXol",
+    "date": "Thu Dec 11 15:14:49 2025 -0500",
+    "message": "Create 2025_12_11item_comerciables.sql",
+    "files": ["data/update/world/2025_12_11item_comerciables.sql"]
+  },
+  {
+    "commit": "4fcfbe2d23df0744e7e6d10fc1b6de5522da4940",
+    "author": "RëXol",
+    "date": "Sat Dec 13 07:27:32 2025 -0500",
+    "message": "Core/System store ingame",
+    "files": ["data/base/characters.sql", "data/update/characters/2025_12_13 store_ingame.sql", "data/update/world/2025_12_13 store_ingame_npc.sql", "src/server/scripts/Custom/custom_script_loader.cpp", "src/server/scripts/Custom/store_ingame.cpp", "src/server/worldserver/worldserver.conf.dist"]
+  },
+  {
+    "commit": "826a218782250ff9d3a4d61fe76247b992c97047",
+    "author": "RëXol",
+    "date": "Sat Dec 13 17:59:31 2025 -0500",
+    "message": "System/Vip agregado mostrar tiempo restante",
+    "files": ["src/server/scripts/Custom/Vip/SystemVip.cpp", "src/server/scripts/Custom/Vip/SystemVip.h"]
+  },
+  {
+    "commit": "4d93383a9c5239c721f2b0169e9d53de66d004b8",
+    "author": "RëXol",
+    "date": "Sun Dec 14 13:13:28 2025 -0500",
+    "message": "move script",
+    "files": ["src/server/scripts/Custom/arena_anti_draw.cpp", "src/server/scripts/Custom/custom_script_loader.cpp", "src/server/scripts/World/arena_anti_draw.cpp", "src/server/scripts/World/world_script_loader.cpp"]
+  },
+  {
+    "commit": "24e9d8390dac14be2e9d03c5862d8fd107f2a738",
+    "author": "RëXol",
+    "date": "Sun Dec 14 13:33:27 2025 -0500",
+    "message": "Update npc buffer",
+    "files": ["data/update/world/2025_12_11_01 olympus_service.sql", "data/update/world/2025_12_11_02 item_comerciables.sql", "data/update/world/2025_12_14 npc_buff_and_transmogrifier.sql", "src/server/scripts/Custom/Npc_buff.cpp"]
+  },
+  {
+    "commit": "0e615727141a60369aecd922a8f29834799a026a",
+    "author": "RëXol",
+    "date": "Mon Dec 15 12:07:39 2025 -0500",
+    "message": "Core/Event update game_event",
+    "files": ["data/base/characters.sql", "data/update/world/2025_12_15 game_event_prequisite.sql", "src/server/game/Events/GameEventMgr.cpp"]
+  },
+  {
+    "commit": "e2e5193e2930245fb60c48d3b1618acab264b46e",
+    "author": "RëXol",
+    "date": "Mon Dec 15 12:53:43 2025 -0500",
+    "message": "update table mysql8",
+    "files": ["src/server/game/Groups/GroupMgr.cpp"]
+  },
+  {
+    "commit": "8f800af8785bbd210ee2482236e19b806c861bca",
+    "author": "RëXol",
+    "date": "Tue Dec 16 07:10:51 2025 -0500",
+    "message": "Core/Script mas correciones en gossip",
+    "files": ["data/update/world/2025_12_01 sql_ejemplo_broadcast.sql", "data/update/world/2025_12_02_01 npc_innkeeper.sql", "data/update/world/2025_12_02_01_NPC_16256.SQL", "data/update/world/2025_12_06_Locales_esES_varios_2.SQL", "data/update/world/2025_12_15 delete_conditions.sql", "src/server/scripts/DarkmoonFair/DarkmoonFairScripts.cpp", "src/server/scripts/Outland/zone_hellfire_peninsula.cpp"]
+  },
+  {
+    "commit": "3522dfb4cff49a7a347e27d0114328f30f59b35c",
+    "author": "RëXol",
+    "date": "Tue Dec 16 07:31:46 2025 -0500",
+    "message": "Core/Scripts hechizos no existentes",
+    "files": ["data/update/world/2025_12_16 spell_no_existe.sql", "src/server/scripts/Kalimdor/HallsOfOrigination/boss_isiset.cpp", "src/server/scripts/Outland/CoilfangReservoir/SerpentShrine/boss_lady_vashj.cpp", "src/server/scripts/Outland/CoilfangReservoir/SerpentShrine/instance_serpent_shrine.cpp", "src/server/scripts/Spells/spell_dk.cpp", "src/server/scripts/Spells/spell_druid.cpp", "src/server/scripts/Spells/spell_hunter.cpp", "src/server/scripts/Spells/spell_paladin.cpp"]
+  },
+  {
+    "commit": "1133f3bd23b3b5fb72b1d2a6b1a8a4014fcbf407",
+    "author": "RëXol",
+    "date": "Tue Dec 16 15:20:13 2025 -0500",
+    "message": "System/vip add correo",
+    "files": ["src/server/scripts/Custom/Vip/SystemVip.cpp", "src/server/scripts/Custom/Vip/SystemVip.h"]
+  },
+  {
+    "commit": "c2106d0e2338801469e088f9e1195d6ed45f07bf",
+    "author": "RëXol",
+    "date": "Tue Dec 16 15:22:01 2025 -0500",
+    "message": "Fix npc buffer",
+    "files": ["src/server/scripts/Custom/Npc_buff.cpp"]
+  },
+  {
+    "commit": "0d3ea67595a0c5475e71b2f0ff3e34736909bc26",
+    "author": "RëXol",
+    "date": "Wed Dec 17 13:59:39 2025 -0500",
+    "message": ".",
+    "files": ["src/server/scripts/Custom/Mod_Announcer.cpp", "src/server/scripts/Custom/Mod_Level_Booster.cpp", "src/server/scripts/Custom/Mod_Profession.cpp", "src/server/scripts/Custom/Mod_SkipStarter.cpp", "src/server/scripts/Custom/Mod_Teleport.cpp", "src/server/scripts/Custom/Mod_World_Chat.cpp", "src/server/scripts/Custom/Npc_buff.cpp", "src/server/scripts/Custom/RestrictGMIsland.cpp", "src/server/scripts/Custom/Skirmish_npc.cpp", "src/server/scripts/Custom/SpellRegulator.cpp", "src/server/scripts/Custom/SpellRegulator.h", "src/server/scripts/Custom/Transmog/Transmogrification.cpp", "src/server/scripts/Custom/Transmog/Transmogrification.h", "src/server/scripts/Custom/Transmog/Transmogrifier.cpp", "src/server/scripts/Custom/Vip/SystemVip.cpp", "src/server/scripts/Custom/Vip/SystemVip.h", "src/server/scripts/Custom/arena_spectator.cpp", "src/server/scripts/Custom/level_up.cpp", "src/server/scripts/Custom/level_up.h", "src/server/scripts/Custom/mod_learn_spell.cpp", "src/server/scripts/Custom/npc_instance_reset.cpp", "src/server/scripts/Custom/npc_support_quest.cpp", "src/server/scripts/Custom/soloqueue_npc.cpp", "src/server/scripts/Custom/store_ingame.cpp", "src/server/scripts/Custom/streams.cpp", "src/server/scripts/World/arena_anti_draw.cpp", "src/server/scripts/World/system_pvptitles.cpp", "src/server/scripts/World/world_boss.cpp"]
+  },
+  {
+    "commit": "83a44818f3405a3d14311712ccad1959c4d2f0e1",
+    "author": "RëXol",
+    "date": "Thu Dec 18 08:19:36 2025 -0500",
+    "message": "Create 2025_12_18 add_npc.sql",
+    "files": ["data/update/world/2025_12_18 add_npc.sql"]
+  },
+  {
+    "commit": "b04387a56dbd46866bf7b149604d8e52050263f0",
+    "author": "RëXol",
+    "date": "Thu Dec 18 08:40:18 2025 -0500",
+    "message": "correcion de warning uint 8",
+    "files": ["src/server/game/Entities/Player/Player.h"]
+  },
+  {
+    "commit": "3dc312910409c37f5b83ce73b73759a551709bbb",
+    "author": "RëXol",
+    "date": "Fri Dec 19 10:23:30 2025 -0500",
+    "message": "Delete CMakeLists.txt",
+    "files": ["src/server/scripts/EasternKingdoms/CMakeLists.txt"]
+  },
+  {
+    "commit": "b42871a9df41c5b09342396eea5e9ba176a6623e",
+    "author": "RëXol",
+    "date": "Fri Dec 19 16:55:50 2025 -0500",
+    "message": "Scripts/DB add logros",
+    "files": ["data/update/world/2025_12_19 logros_scripts.sql", "src/server/scripts/World/achievement_scripts.cpp"]
+  },
+  {
+    "commit": "e5c0bafbd2ecfc44cd9b7bad547c679332b7511c",
+    "author": "RëXol",
+    "date": "Fri Dec 19 16:55:54 2025 -0500",
+    "message": "Create 2025_12_19 skill_discovery_template.sql",
+    "files": ["data/update/world/2025_12_19 skill_discovery_template.sql"]
+  },
+  {
+    "commit": "494bbbf26ce7bad2650a1eca0bd277d2f0ddbb6a",
+    "author": "Uniko",
+    "date": "Fri Dec 19 21:30:41 2025 -0600",
+    "message": "UPDATE/SQL  LOCALES LANG ES, MX",
+    "files": ["data/update/world/2025_12_06_00_NPC_18417_Broadcast_locales_esES.SQL", "data/update/world/2025_12_06_Locales_esES_varios_3.SQL", "data/update/world/2025_12_11_Locales_esES_varios_3.SQL", "data/update/world/2025_12_17_Locales_esES_Zona_Worgen.SQL", "data/update/world/2025_12_18_Locales_esEs_Zona_Draenei.SQL"]
+  },
+  {
+    "commit": "d6a6868010659a4ef963f92b0f0afd2bf7eb4e71",
+    "author": "RëXol",
+    "date": "Sat Dec 20 07:12:45 2025 -0500",
+    "message": "Merge branch 'main' of https://github.com/jorge990125/Olympus-Cata",
+    "files": []
+  },
+  {
+    "commit": "d47090be53b4ab7553c7822b44c8f4f783afb051",
+    "author": "RëXol",
+    "date": "Sat Dec 20 07:32:34 2025 -0500",
+    "message": "Script/DB update gilneas",
+    "files": ["data/update/world/2025_12_20 scriptname_no_existe.SQL", "src/server/scripts/EasternKingdoms/Gilneas/gilneas.cpp"]
+  },
+  {
+    "commit": "e41a324e0bef64861fc1daccb34ec4dd97d1b904",
+    "author": "RëXol",
+    "date": "Sat Dec 20 07:39:07 2025 -0500",
+    "message": ".",
+    "files": ["data/update/world/2025_12_20 Locales_esES_Zona_Worgen.SQL", "data/update/world/2025_12_20 Locales_esES_varios_2.SQL", "data/update/world/2025_12_20 Locales_esES_varios_3.SQL", "data/update/world/2025_12_20 Locales_esEs_Zona_Draenei.SQL", "data/update/world/2025_12_20 NPC_18417_Broadcast_locales_esES.SQL"]
+  },
+  {
+    "commit": "7ee5c93cec8e61e7cacfb94e76f1dd53a28485b0",
+    "author": "RëXol",
+    "date": "Sat Dec 20 08:02:01 2025 -0500",
+    "message": "Update gilneas.cpp",
+    "files": ["src/server/scripts/EasternKingdoms/Gilneas/gilneas.cpp"]
+  },
+  {
+    "commit": "003fb10cd07384159b36ee6a65620a14dd5e1b7b",
+    "author": "RëXol",
+    "date": "Sat Dec 20 11:16:21 2025 -0500",
+    "message": "Create 2025_12_20 correcion_de_errores.SQL",
+    "files": ["data/update/world/2025_12_20 correcion_de_errores.SQL"]
+  },
+  {
+    "commit": "5787484807b3e389b92bbd403a0869f29dab9155",
+    "author": "RëXol",
+    "date": "Mon Dec 22 22:09:08 2025 -0500",
+    "message": "Scripts/Service boost profession",
+    "files": ["data/update/world/2025_12_22 boost_profession.SQL", "src/server/scripts/Custom/olympus_service.cpp"]
+  },
+  {
+    "commit": "2fdfcd8c07393631add1cd0b150e406e844cd168",
+    "author": "RëXol",
+    "date": "Tue Dec 23 12:33:51 2025 -0500",
+    "message": "Script/sytem update store ingame",
+    "files": ["data/base/characters.sql", "data/update/characters/2025_12_13 store_ingame.sql", "src/server/scripts/Custom/store_ingame.cpp"]
+  },
+  {
+    "commit": "b6288fac8aaa53ccfed801822aa35ce97cecbf5b",
+    "author": "RëXol",
+    "date": "Thu Dec 25 17:10:27 2025 -0500",
+    "message": "Sytem/Store ingame update",
+    "files": ["src/server/scripts/Custom/store_ingame.cpp"]
+  },
+  {
+    "commit": "a1d4f7de2375e28fa568460f4b9b519f3e931dc3",
+    "author": "RëXol",
+    "date": "Sat Dec 27 14:05:08 2025 -0500",
+    "message": "sql",
+    "files": ["data/base/auth.sql", "data/base/characters.sql", "data/update/world/2025_12_06 Locales_esES_varios_2.SQL", "data/update/world/2025_12_20_01 NPC_18417_Broadcast_locales_esES.SQL", "data/update/world/2025_12_20_02 Locales_esES_varios_3.SQL", "data/update/world/2025_12_20_03 Locales_esES_varios_3.SQL", "data/update/world/2025_12_20_04 Locales_esES_Zona_Worgen.SQL", "data/update/world/2025_12_20_05 Locales_esEs_Zona_Draenei.SQL", "data/update/world/2025_12_20_06 correcion_de_errores.SQL"]
   }
 ]
